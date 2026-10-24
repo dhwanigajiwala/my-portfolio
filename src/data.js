@@ -1,14 +1,9 @@
-// ------------------------------------------------------------------
-// Edit this file to make the portfolio yours. Everything on the site
-// is read from here. Replace every placeholder before you deploy.
-// ------------------------------------------------------------------
-
 export const profile = {
   name: 'Dhwani Gajiwala',
   role: 'MCA student and Android developer',
   intro:
     'I build Android apps with Kotlin and Firebase, and admin panels with PHP. This portfolio is a React site I designed, coded and deployed myself.',
-  email: 'dhwanigajiwala405@gmail.com',
+  email: 'dhwanigajiwala@gmail.com',
   linkedin: 'https://www.linkedin.com/in/dhwani-gajiwala',
   github: 'https://github.com/dhwanigajiwala',
   resumeUrl: '', // optional: e.g. '/resume.pdf' (put the file in a /public folder)
