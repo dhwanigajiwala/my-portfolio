@@ -17,10 +17,10 @@ export const profile = {
     'Mention one thing that makes your approach yours, such as how you plan a project, how you test it, or what you care about when you design an interface.',
   ],
   facts: [
-    { label: 'Based in', value: '[Your city, country]' },
+    { label: 'Based in', value: 'Surat, Gujarat, India' },
     { label: 'Studying', value: 'Master of Computer Applications (MCA)' },
-    { label: 'Learning now', value: '[A tool or concept]' },
-    { label: 'Open to', value: '[Internships, freelance, collaboration]' },
+    { label: 'Learning now', value: 'Advanced Android Development' },
+    { label: 'Open to', value: 'Internships, freelance, collaboration' },
   ],
 };
 
