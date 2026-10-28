@@ -42,6 +42,11 @@ const Facts = styled.dl`
   }
 `;
 
+// `about` can be a single string (use a blank line or \n between paragraphs) or an array of strings.
+const paragraphs = (Array.isArray(profile.about) ? profile.about : String(profile.about || '').split(/\n+/))
+  .map((text) => text.trim())
+  .filter(Boolean);
+
 export default function About() {
   return (
     <Section id="about">
@@ -49,7 +54,7 @@ export default function About() {
         <SectionTitle>About me</SectionTitle>
         <Grid>
           <Copy>
-            {profile.about.map((text) => (
+            {paragraphs.map((text) => (
               <p key={text}>{text}</p>
             ))}
           </Copy>
