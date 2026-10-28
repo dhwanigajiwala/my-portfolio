@@ -7,10 +7,7 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/dhwani-gajiwala',
   github: 'https://github.com/dhwanigajiwala',
   resumeUrl: '', // optional: e.g. '/resume.pdf' (put the file in a /public folder)
-  about: [
-    'Write two or three short paragraphs here. Say what you study or do, what kind of work you enjoy, and what you are learning right now.',
-    'Mention one thing that makes your approach yours, such as how you plan a project, how you test it, or what you care about when you design an interface.',
-  ],
+  about: 'I am an aspiring Android Developer with a background in application development and a strong interest in building user-friendly mobile applications. I enjoy working with Kotlin, Android Studio, XML layouts, and Firebase to develop applications that combine functionality with clean, intuitive interfaces. Through my academic and personal projects, I have gained practical experience in mobile app development, database integration, and designing solutions that address real-world needs. /n My approach to development focuses on understanding the users needs before writing code. I enjoy planning application flows, designing clear interfaces, and making sure each feature works as expected. I believe a great application should not only function correctly but also provide a smooth and meaningful user experience.I am continuously improving my skills in Android development, database management, and modern application development practices. /n I am eager to explore new technologies, work on challenging projects, and grow as a developer by turning ideas into practical, reliable mobile applications.'
   facts: [
     { label: 'Based in', value: 'Surat, Gujarat, India' },
     { label: 'Studying', value: 'Master of Computer Applications (MCA)' },
